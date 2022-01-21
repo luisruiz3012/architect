@@ -95,9 +95,37 @@ li > a {
     font-size: 4rem;
 }
 
+#form_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    width: 70%;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form label {
+    font-size: 1.5rem;
+}
+
+#icons {
+    padding-inline: 160px;
+}
+
 @media screen and (max-width: 768px) {
     .gallery img {
         max-width: 290px;
         max-height: 190px;
+    }
+
+    #icons {
+        padding-inline: 0px;
     }
 }
